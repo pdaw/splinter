@@ -34,36 +34,4 @@ class WebDriver(BaseWebDriver):
 
 
 class WebDriverElement(BaseWebDriverElement):
-
-    def mouse_over(self):
-        """
-        Remote Firefox doesn't support mouseover.
-        """
-        raise NotImplementedError("Remote Firefox doesn't support mouse over")
-
-    def mouse_out(self):
-        """
-        Remote Firefox doesn't support mouseout.
-        """
-        raise NotImplementedError("Remote Firefox doesn't support mouseout")
-
-    def double_click(self):
-        """
-        Remote Firefox doesn't support doubleclick.
-        """
-        raise NotImplementedError("Remote Firefox doesn't support doubleclick")
-
-    def right_click(self):
-        """
-        Remote Firefox doesn't support right click'
-        """
-        raise NotImplementedError("Remote Firefox doesn't support right click")
-
-    def drag_and_drop(self, droppable):
-        """
-        Remote Firefox doesn't support drag and drop
-        """
-        raise NotImplementedError("Remote Firefox doesn't support drag an drop")
-
-    mouseover = mouse_over
-    mouseout = mouse_out
+    pass
